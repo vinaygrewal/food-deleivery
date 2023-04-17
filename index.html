@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (min-width:560px) and (max-width:892px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width:560px)" href="phonesmall.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Food App</title>
+  </head>
+
+
+  <body>
+    <nav >
+      <div>
+        <img src="image/dish.png" alt="" class="icon" />
+        <span class="name">Cool Dude</span>
+      </div>
+      <ul class="navbar_ul ">
+        <li class="page" id="page1"><a href="#home">Home</a></li>
+        <li class="page" id="page2"><a href="#features">Features</a></li>
+        <!-- <li class="page" id="page3"><a href="#">Pricing</a></li> -->
+        <li class="page" id="page4"><a href="#client-section">Partner</a></li>
+        <li class="page" id="page5"><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="mobile-icon">
+        <ion-icon name="menu" class="mobile-icon1 navopen"></ion-icon>
+        <ion-icon name="close" class="mobile-icon1 close active"></ion-icon>
+      </div>
+    </nav>
+
+    <section id="home">
+      <h1 class="heading">Welcome To Online Food</h1>
+      <div>
+        <p class="home_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime
+          possimus quo odit blanditiis aliquid, necessitatibus, reprehenderit
+          deleniti perferendis id hic omnis soluta porro aspernatur mollitia
+          nesciunt voluptatum.
+        </p>
+        <p class="home_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Iste, cupiditate.
+        </p>
+      </div>
+      <button class="btn">Order Food</button>
+    </section>
+
+    <section id="features">
+      <h1 class="heading">Our Services</h1>
+      <div class="container">
+        <div class="cards">
+          <img src="image/1.png" alt="pizza" />
+          <h2 class="heading2">Food Catering</h2>
+          <p class="container-data">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            quisquam sit, molestias corrupti sint eligendi dolorem a? Incidunt
+            necessitatibus iure asperiores quis blanditiis? Cupiditate, nihil
+            exercitationem.
+          </p>
+        </div>
+        <div class="cards">
+          <img src="image/2.png" alt="delievery" />
+          <h2 class="heading2">Bulk Ordering</h2>
+          <p class="container-data">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            quisquam sit, molestias corrupti sint eligendi dolorem a? Incidunt
+            necessitatibus iure asperiores quis blanditiis? Cupiditate, nihil
+            exercitationem.
+          </p>
+        </div>
+        <div class="cards">
+          <img src="image/3.png" alt="kmal" />
+          <h2 class="heading2">Food Ordering</h2>
+          <p class="container-data">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            quisquam sit, molestias corrupti sint eligendi dolorem a? Incidunt
+            necessitatibus iure asperiores quis blanditiis? Cupiditate, nihil
+            exercitationem.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="client-section">
+      <h1 class="heading">Our Clients</h1>
+      <div id="clients">
+        
+        <div class="client-item">
+          <img src="image/logo4.png" alt="Our Client">
+      </div>
+      <div class="client-item">
+          <img src="image/logo3.png" alt="Our Client">
+      </div>
+          <div class="client-item">
+              <img src="image/logo1.png" alt="Our Client">
+          </div>
+          <div class="client-item">
+              <img src="image/logo2.png" alt="Our Client">
+          </div>
+        
+      </div>
+
+  </section>
+  <section id="contact">
+<h1 class="heading">Contact-Us</h1>
+<form action="mailto:vinaygrewal23@gmail.com" enctype="text/plain" class="contact-form">
+  <div><label class="heading2" for="name" >Name</label>
+    <input type="text" placeholder="Enter Your Name">
+  </div>
+  <div>
+    <label class="heading2" for="name">Mobile-No</label>
+    <input type="text" placeholder="Enter Your Mobile-No">
+  </div>
+ <div>
+  <label class="heading2" for="name">Your Message</label>
+  <textarea type="text"></textarea>
+ </div>
+ 
+  <input  class="btn button" type="submit" >
+</form>
+
+  </section>
+  <footer>
+    <span>Made by <a href="https://github.com/vinaygrewal"> Vinay Grewal</a></span> 
+  </footer>
+
+<!-- our js -->
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="index.js"></script>
+
+  </body>
+</html>
