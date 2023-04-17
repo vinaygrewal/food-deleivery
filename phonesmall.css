@@ -127,11 +127,11 @@ text-shadow: 2px 2px white;
         margin: 1rem 1rem;
     }  
     .client-item img{
-        width: 80px;
+        width: 70px;
       
     }
     .client-item img:hover{
-        width: 90px;
+        width: 80px;
     }
     
 /* contact-section */
